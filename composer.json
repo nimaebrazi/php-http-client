@@ -1,0 +1,19 @@
+{
+    "name": "nimaebrazi/php-http-client",
+    "keywords": ["http", "rest", "web service", "curl", "client", "HTTP client"],
+    "authors": [
+        {
+            "name": "Nima Ebrazi",
+            "email": "nima.ebrazi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NimaEbrazi\\HttpClient\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
